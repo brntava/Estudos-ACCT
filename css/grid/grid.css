@@ -1,0 +1,200 @@
+/* Exercicios Grid */
+
+/* Ex 1 */
+
+#water {
+    grid-column-start: 3;
+}
+
+/* Ex 2 */
+
+#poison {
+    grid-column-start: 5;
+}
+
+/* Ex 3 */
+
+#water {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* Ex 4 */
+
+#water {
+    grid-column-start: 5;
+    grid-column-end: 2;
+}
+
+/* Ex 5 */
+
+#water {
+    grid-column-start: 1;
+    grid-column-end: -2;
+}
+
+/* Ex 6 */
+
+#poison {
+    grid-column-start: -3;
+}
+
+/* Ex 7 */
+
+  
+#water {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+/* Ex 8 */
+
+  
+#water {
+    grid-column-start: 1;
+    grid-column-end: span 5;
+}
+
+/* Ex 9 */
+
+  
+#water {
+    grid-column-start: -4;
+    grid-column-end: 6;
+}
+
+/* Ex 10 */
+
+#water {
+    grid-column: 4/6;
+}
+
+/* Ex 11 */
+
+#water {
+    grid-column: 2/5;
+}
+
+/* Ex 12 */
+
+#water {
+    grid-row-start: 3;
+}
+
+/* Ex 13 */
+
+#water {
+    grid-row: 3/6;
+}
+
+/* Ex 14 */
+
+#poison {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+/* Ex 15 */
+
+#water {
+    grid-column: 2/6;
+    grid-row: 1/6;
+}
+
+/* Ex 16 */
+
+#water {
+    grid-area: 1 / 2 / 4 / 6;
+}
+
+/* Ex 17 */
+
+#water-1 {
+    grid-area: 1 / 4 / 6 / 5;
+}
+  
+#water-2 {
+    grid-area: 2 / 3 / 5 / 6;
+}
+
+/* Ex 18 */
+
+#poison {
+    order: 3;
+}
+
+/* Ex 19 */
+
+.poison {
+    order: -2;
+}
+
+/* Ex 20 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* Ex 21 */
+
+#garden {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* Ex 22 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 100px 3em 40%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* Ex 23 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* Ex 24 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* Ex 25 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 75px 3fr 2fr;
+    grid-template-rows: 100%;
+}
+
+/* Ex 26 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50px 0 0 0 1fr;
+}
+
+/* Ex 27 */
+
+#garden {
+    display: grid;
+    grid-template: 60% / 200px;
+}
+
+/* Ex 28 */
+
+#garden {
+    display: grid;
+    grid-template: 1fr 50px / 1fr 4fr;
+}
