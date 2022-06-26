@@ -9,3 +9,7 @@ Estudado sobre como como utilizar o GitFlow no dia a dia e como criar Markdown d
 ### Css
 
 Estudado como utilizar flexbox e grid para criar layouts responsivos
+
+### Javascript
+
+Criado projeto da calculadora para estudo
