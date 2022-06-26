@@ -10,29 +10,31 @@
 <body>
 
     <div class="calc">
-        <div class="display"></div>
+        <div class="display">
+            <div class="result"></div>
+        </div>
         <div class="buttons">
             <div class="numbers">
-                <div id="b1">1</div>
-                <div id="b2">2</div>
-                <div id="b3">3</div>
-                <div id="b4">4</div>
-                <div id="b5">5</div>
-                <div id="b6">6</div>
-                <div id="b7">7</div>
-                <div id="b8">8</div>
-                <div id="b9">9</div>
-                <div id="dot">.</div>
-                <div id="b0">0</div>
-                <div id="equal">=</div>
+                <div id="b1" onclick="insert('1')">1</div>
+                <div id="b2" onclick="insert('2')">2</div>
+                <div id="b3" onclick="insert('3')">3</div>
+                <div id="b4" onclick="insert('4')">4</div>
+                <div id="b5" onclick="insert('5')">5</div>
+                <div id="b6" onclick="insert('6')">6</div>
+                <div id="b7" onclick="insert('7')">7</div>
+                <div id="b8" onclick="insert('8')">8</div>
+                <div id="b9" onclick="insert('9')">9</div>
+                <div id="dot" onclick="insert('.')">.</div>
+                <div id="b0" onclick="insert('0')">0</div>
+                <div id="equal" onclick="calc()">=</div>
             </div>
             <div class="operator">
-                <div id="clean">C</div>
-                <div id="del"><=</div>
-                <div id="minus">-</div>
-                <div id="divi">/</div>
-                <div id="mult">x</div>
-                <div id="plus">+</div>
+                <div id="clean" onclick="clean()">C</div>
+                <div id="del" onclick="del()"><</div>
+                <div id="mult" onclick="insert('*')">x</div>
+                <div id="divi" onclick="insert('/')">/</div>
+                <div id="minus" onclick="insert('-')">-</div>
+                <div id="plus" onclick="insert('+')">+</div>
             </div>
         </div>
     </div>

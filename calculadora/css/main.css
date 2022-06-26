@@ -20,7 +20,17 @@ body{
 .display{
     width: 100%;
     height: 50px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #000;
+}
+
+.result{
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-right: 10px;
+    font-size: 22px;
 }
 
 .buttons{
