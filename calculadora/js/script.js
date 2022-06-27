@@ -1,10 +1,10 @@
-let result = document.querySelector('.result');
-
 const insert = num => {
-    result.innerHTML += num
+    let result = document.querySelector('.result');
+    result.innerHTML += num;
 }
 
 const clean = () => {
+    let result = document.querySelector('.result');
     result.innerHTML = '';
 }
 
@@ -19,6 +19,6 @@ const calc = () => {
     if(result){
         document.querySelector('.result').innerHTML = eval(result);
     } else{
-        alert('Dados incorretos!');
+        alert('Digite os numeros corretos!');
     }
 }

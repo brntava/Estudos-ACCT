@@ -13,7 +13,7 @@ body{
 }
 
 .calc{
-    width: 280px;
+    width: 250px;
     background-color: #333;
 }
 
@@ -42,7 +42,6 @@ body{
 
 .numbers{
     width: 100%;
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
 }
@@ -52,12 +51,15 @@ body{
 }
 
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b0, #equal, #dot{
-    width: 20%;
-    padding: 12px;
+    width: 22%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #clean, #del, #minus, #plus, #divi, #mult{
     width: 100%;
-    padding: 5px;
+    padding: 10px 0 10px 0;
 }
 
 #b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover, #b7:hover, #b8:hover, #b9:hover, #b0:hover, #equal:hover, #dot:hover,
