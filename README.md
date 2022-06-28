@@ -13,3 +13,9 @@ Estudado como utilizar flexbox e grid para criar layouts responsivos
 ### Javascript
 
 Criado projeto da calculadora para estudo
+
+### React 
+
+Exercicio para eescrever "Hello World" de 10 formas diferentes
+
+image.png
