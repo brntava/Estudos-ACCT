@@ -18,4 +18,4 @@ Criado projeto da calculadora para estudo
 
 Exercicio para eescrever "Hello World" de 10 formas diferentes
 
-![react](https://user-images.githubusercontent.com/92897929/176236169-5594e9f9-4567-45a8-865d-ab09321db7a5.jpg)
+![image](https://user-images.githubusercontent.com/92897929/176236392-6676b78f-cd46-4489-8519-986f5b5462b7.png)
