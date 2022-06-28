@@ -16,6 +16,6 @@ Criado projeto da calculadora para estudo
 
 ### React 
 
-Exercicio para eescrever "Hello World" de 10 formas diferentes
+Exercicio para escrever "Hello World" de 10 formas diferentes
 
 ![image](https://user-images.githubusercontent.com/92897929/176236392-6676b78f-cd46-4489-8519-986f5b5462b7.png)
