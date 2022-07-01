@@ -1,0 +1,41 @@
+{
+    "userProfileId": "02926294-c5ca-4ea8-a093-a850da3163bd",
+    "profileProvider": "ACCT CONSULTORIA E DESENVOLVIMENTO LTDA",
+    "availableAccounts": [],
+    "availableAddresses": [
+        {
+            "addressType": "residential",
+            "receiverName": "R*** T***",
+            "addressId": "4902380123103",
+            "isDisposable": false,
+            "postalCode": "***44",
+            "city": "Fei*** *** ***",
+            "state": "BA",
+            "country": "BRA",
+            "street": "*** ***ia",
+            "number": "***",
+            "neighborhood": "Jar*** ***",
+            "complement": "*** *** *** ***",
+            "reference": null,
+            "geoCoordinates": []
+        }
+    ],
+    "userProfile": {
+        "email": "email.test@mailinator.com",
+        "firstName": "R***",
+        "lastName": "T***",
+        "document": "***90",
+        "documentType": "cpf",
+        "phone": "***99",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "profileCompleteOnLoading": null,
+        "profileErrorOnLoading": null,
+        "customerClass": null
+    },
+    "isComplete": true
+}
